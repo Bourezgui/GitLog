@@ -6,7 +6,7 @@ import java.lang.reflect.Constructor;
 public class Algo_thread {
 	public static void main(String[] args) {
 		
-		BeanInterface Bean = (BeanInterface) BeanFactory.getBean("log.Bean_2");
+		BeanInterface Bean = (BeanInterface) BeanFactory.getBean("log.Bean_1");
 
 	}
 
