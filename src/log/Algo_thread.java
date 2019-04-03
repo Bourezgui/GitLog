@@ -5,9 +5,9 @@ import java.lang.reflect.Constructor;
 
 public class Algo_thread {
 	public static void main(String[] args) {
-		//definition d'une bean
+		
 		BeanInterface Bean = (BeanInterface) BeanFactory.getBean("log.Bean_1");
-
+		//definition d'une bean
 	}
 
 
