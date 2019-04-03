@@ -7,7 +7,7 @@ public class Algo_thread {
 	public static void main(String[] args) {
 		//master modification
 		BeanInterface Bean = (BeanInterface) BeanFactory.getBean("log.Bean_1");
-
+		//definition d'une bean
 	}
 
 
