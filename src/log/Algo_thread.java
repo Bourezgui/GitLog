@@ -17,7 +17,7 @@ public class Algo_thread {
 
 class BeanFactory{
 	//Defintion d'un bean statique
-	//branch_1
+	//branch_1 detached_head
 	private static Object Bean ;
 	
 	//cette methode permette d'avoir le bean 
