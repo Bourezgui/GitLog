@@ -7,8 +7,7 @@ public class Algo_thread {
 	public static void main(String[] args) {
 		
 		BeanInterface Bean = (BeanInterface) BeanFactory.getBean("log.Bean_2");
-		
-		
+
 	}
 
 
@@ -18,7 +17,7 @@ public class Algo_thread {
 
 
 class BeanFactory{
-	
+	//Defintion d'un bean statique
 	private static Object Bean ;
 	
 	//cette methode permette d'avoir le bean 
