@@ -2,5 +2,4 @@
 <beans>
 <bean id="bean_1" className="log.Bean_1"/>
 <bean id="bean_2" className="log.Bean_2"/>
-<bean id="bean_3" className="log.Bean_2"/>
 </beans>

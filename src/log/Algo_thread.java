@@ -15,13 +15,15 @@ public class Algo_thread {
 
 
 
+
 class BeanFactory{
 	//Defintion d'un bean statique
 	//branch_1
 	private static Object Bean ;
 	
 	//cette methode permette d'avoir le bean 
-	public static Object getBean(String BeanName){		
+	public static Object getBean(String BeanName){
+		
 		if(Bean==null)
 			CreateBean(BeanName);
 		return Bean;
